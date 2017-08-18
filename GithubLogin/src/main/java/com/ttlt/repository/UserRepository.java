@@ -1,6 +1,6 @@
-package repository;
+package com.ttlt.repository;
 
-import domain.User;
+import com.ttlt.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

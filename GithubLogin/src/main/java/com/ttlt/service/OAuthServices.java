@@ -1,6 +1,6 @@
-package service;
+package com.ttlt.service;
 
-import oauth.OAuthServiceDeractor;
+import com.ttlt.oauth.OAuthServiceDeractor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

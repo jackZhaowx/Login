@@ -1,4 +1,4 @@
-package domain;
+package com.ttlt.domain;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

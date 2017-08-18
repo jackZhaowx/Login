@@ -1,10 +1,10 @@
-package service;
+package com.ttlt.service;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONPath;
-import domain.OAuthUser;
-import domain.User;
-import oauth.OAuthServiceDeractor;
+import com.ttlt.oauth.OAuthServiceDeractor;
+import com.ttlt.domain.OAuthUser;
+import com.ttlt.domain.User;
 import org.scribe.model.*;
 import org.scribe.oauth.OAuthService;
 

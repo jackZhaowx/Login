@@ -1,4 +1,4 @@
-package api;
+package com.ttlt.oauth.api;
 
 import org.scribe.builder.api.DefaultApi20;
 import org.scribe.model.OAuthConfig;

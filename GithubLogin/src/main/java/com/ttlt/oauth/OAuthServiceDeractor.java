@@ -1,6 +1,6 @@
-package oauth;
+package com.ttlt.oauth;
 
-import domain.OAuthUser;
+import com.ttlt.domain.OAuthUser;
 import org.scribe.model.OAuthRequest;
 import org.scribe.model.Token;
 import org.scribe.model.Verifier;

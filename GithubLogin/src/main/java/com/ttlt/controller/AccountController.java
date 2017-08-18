@@ -1,8 +1,8 @@
-package controller;
+package com.ttlt.controller;
 
-import domain.OAuthUser;
-import domain.User;
-import oauth.OAuthServiceDeractor;
+import com.ttlt.oauth.OAuthServiceDeractor;
+import com.ttlt.domain.OAuthUser;
+import com.ttlt.domain.User;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.scribe.model.Token;
 import org.scribe.model.Verifier;
@@ -12,9 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import repository.OauthUserRepository;
-import repository.UserRepository;
-import service.OAuthServices;
+import com.ttlt.repository.OauthUserRepository;
+import com.ttlt.repository.UserRepository;
+import com.ttlt.service.OAuthServices;
 
 /**
  * @author: zhaowanxin  Date: 2017/8/14 Time: 18:43
@@ -36,7 +36,7 @@ public class AccountController {
         return "index";
     }
 
-    @RequestMapping(value = "/oauth/{type}/callback", method = RequestMethod.GET)
+    @RequestMapping(value = "/com/ttlt/oauth/{type}/callback", method = RequestMethod.GET)
     public String claaback(@RequestParam(value = "code", required = true) String code,
                            @PathVariable(value = "type") String type,
                            HttpServletRequest request, Model model) {
